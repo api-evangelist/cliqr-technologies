@@ -1,8 +1,25 @@
 aid: cliqr-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cliqr-technologies.png
 name: CliQr Technologies *
-description: 'CliQr Technologies * is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'CliQr Technologies was a San Jose, California cloud management software company, backed by
+  GV (Google Ventures) and Google Capital, that built the CloudCenter platform for application-defined
+  hybrid cloud orchestration. Its single application profile let enterprises model, deploy, and manage
+  workloads across bare-metal, virtualized, and container environments and across public clouds (AWS,
+  Microsoft Azure, Google Cloud, IBM SoftLayer, Rackspace) and private clouds (OpenStack, CloudStack,
+  VMware vCloud). Cisco announced its intent to acquire CliQr for $260 million in March 2016 and folded
+  the product into Cisco CloudCenter as part of its hybrid cloud strategy; CliQr no longer operates as an
+  independent company and maintains no active developer surface, API, or documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/cliqr-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +27,33 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: cisco
+x-acquired-date: '2016-03-01'
+x-acquired-amount-usd: 260000000
+x-successor-product: Cisco CloudCenter
+x-enrichment-note: 'Defunct as an independent company; absorbed into Cisco CloudCenter (since EOL). No live
+  domain (cliqr.com does not respond; cliqrtech.com/www.cliqr.com do not resolve as of 2026-07-18), no API,
+  docs, packages, or OpenAPI to search/derive/generate. No provider artifacts created (no fabrication).'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Cloud Management
+- Hybrid Cloud
+- Cloud Orchestration
+- DevOps
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -35,7 +35,7 @@ x-successor-product: Cisco CloudCenter
 x-enrichment-note: 'Defunct as an independent company; absorbed into Cisco CloudCenter (since EOL). No live
   domain (cliqr.com does not respond; cliqrtech.com/www.cliqr.com do not resolve as of 2026-07-18), no API,
   docs, packages, or OpenAPI to search/derive/generate. No provider artifacts created (no fabrication).'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
